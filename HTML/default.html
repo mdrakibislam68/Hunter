@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Demo styles -->
+    <style type="text/css">
+      #div1
+      {
+          position:absolute;
+          left:0px;
+          top:0px;
+          z-index:-1;
+          width:100px;
+          height:100px;
+          background-color:#F00;
+      }
+      #div2
+      {
+          position:absolute;
+          left:0px;
+          top:0px;
+          z-index:-1;
+          width:100px;
+          height:100px;
+          background-color:#000;
+      }
+      #div3
+      {
+          position:absolute;
+          left:0px;
+          top:0px;
+          z-index:-1;
+          width:100px;
+          height:100px;
+          background-color:#ccc;
+      }
+      #div4
+      {
+          position:absolute;
+          left:0px;
+          top:0px;
+          z-index:-1;
+          width:100px;
+          height:100px;
+          background-color:#999;
+      }
+      #links
+      {
+          position:absolute;
+          left:0px;
+          top:200px;
+      }
+  </style>
+  </head>
+
+  <body>
+    <div id="div1">Div 1</div>
+<div id="div2">Div 2</div>
+<div id="div3">Div 3</div>
+<div id="div4">Div 4</div>
+
+<div id="links">
+<input type="button" value="Link1" onclick="resetAll(); up('div1');">
+<input type="button" value="Link2" onclick="resetAll(); up('div2');">
+<input type="button" value="Link3" onclick="resetAll(); up('div3');">
+<input type="button" value="Link4" onclick="resetAll(); up('div4');">
+</div>
+   <script>
+    function reset(id)
+{
+    document.getElementById(id).style.zIndex = 1000;
+}
+
+function up(element)
+{
+    element.style.zIndex = 1;
+}
+
+function resetAll()
+{
+    for (var i = 1; i <= 4; i++)
+    {
+        reset('div' + i);
+    }
+}
+   </script>
+    <!-- Swiper JS -->
+
+    <!-- Initialize Swiper -->
+  
+  </body>
+</html>

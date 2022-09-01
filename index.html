@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Hunter</title>
+</head>
+<body class="bg-[url('/img/slice2.png')] bg-no-repeat bg-cover">
+    <!-- Nav -->
+    <section class="nav-bar fixed w-full top-0 lg:top-5 z-50 transition-all  duration-150 ease-out " >
+        <div class="container">
+            <nav class=" ">
+                <div class="nav relative flex justify-between items-center  p-3 rounded-lg">
+                    <div class="logo flex gap-x-3 items-center">
+                        <img src="/img/logo.png" alt="Hunter">
+                        <a href="index.html" class="text-base leading-5 font-bold capitalize text-deep-blue">Hunter</a>
+                    </div>
+                    <div class="nav-sign flex justify-between gap-x-4 xl:gap-x-7 items-center  ">
+                        <div class="nav-element flex items-center justify-around gap-x-4 xl:gap-x-6 ml-16 xsm:hidden md:flex">
+                            <div class="nav-item hover:text-green hover:bg-olive px-4 py-2 lg text-deep-blue lg:text-white rounded-[32px] border border-deep-blue md:border-white-300">
+                                <a href="/HTML/about.html" class="">About Us</a>
+                            </div>
+                            <div class="nav-item hover:text-green hover:bg-olive px-4 py-2 lg text-deep-blue lg:text-white rounded-[32px] border border-deep-blue md:border-white-300">
+                                <a href="/HTML/article.html" class="">Article</a>
+                            </div>
+                            <div class="nav-item group relative flex items-center hover:text-green hover:bg-olive px-4 py-2 lg text-deep-blue lg:text-white rounded-[32px] border border-deep-blue md:border-white-300">
+                                <a href="/HTML/property.html" class="">Property 
+                                    <img class="hidden lg:inline-block ml-1" src="/img/hero/arrow.png" alt="">
+                                    <img class="inline-block lg:hidden  ml-1" src="/img/nav/dark nav.png" alt="">
+                                </a>
+                                
+                                <div class="group-hover:flex  flex-col hidden absolute top-10 left-0 justify-center items-center w-full rounded-lg px-3 bg-white text-deep-blue">
+                                    <a href="/HTML/default.html" class=" hover:text-green hover:bg-white-300  py-2 rounded-lg">Property</a>
+                                    <a href="/HTML/default.html" class="hover:text-green  hover:bg-white-300 py-2 rounded-lg">Property</a>
+                                    <a href="/HTML/default.html" class="hover:text-green  hover:bg-white-300 py-2 rounded-lg">Property</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sign flex md:flex-none justify-between items-center gap-x-6 ">
+                            <div class="">
+                                <a href="/HTML/property.html" class="text-green bg-olive px-4 py-2 rounded-[32px] border border-white-300">Sign Up!</a>
+                            </div>
+                            <div class="group xsm:block md:hidden ">
+                                <div class="">
+                                    <a href="#" class="">
+                                        <img class="" src="/img/nav/menu_stack_icon_176449.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="mobile-menu hidden group-hover:block bg-[#CFFDF7] absolute left-0 top-[68px] text-right p-7 w-full">
+                                    <ul class="w-full flex flex-col gap-y-4 text-green ">
+                                        <li><a class="hover:text-green hover:bg-white-300 bg-olive py-2 px-7 rounded-md" href="#">About Us</a></li>
+                                        <li><a class="hover:text-green hover:bg-white-300 bg-olive py-2 px-7 rounded-md" href="#">Article</a></li>
+                                        <li><a class="hover:text-green hover:bg-white-300 bg-olive py-2 px-7 rounded-md" href="#">Property</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- Nav End -->
+    <!-- Hero -->
+    <section class="hero   bg-cover pb-12 relative">
+        <img class="absolute top-0 right-0 w-1/2 h-[680px] hidden lg:block" src="/img/New folder (2)/image 6.png" alt="">
+        <div class="container">
+            <div class=" flex flex-col lg:flex-row justify-between">
+                <div class="title py-9 lg:py-[70px] w-full lg:w-[420px] xl:w-[496px]  mt-24">
+                    <h1 class="title-head stroke-deep-blue text-deep-blue text-[40px] leading-[50px] font-semibold capitalize pr-0 xl:pr-28">find the place to
+                        live <span class="font-['lexend'] text-outline"> your dreams</span>
+                        easily here
+                    </h1>
+                    <p class="font-normal text-base text-[#626687] mt-6">
+                        Everything you need about finding your place to live will be here, where it will be easier for you
+                    </p>
+                    <div class="search flex items-center p-1 my-8 gap-x-4 bg-white border border-solid border-[#E0E3EB] rounded-[32px]">
+                        <div class="pl-6">
+                            <img src="/img/hero/Group.png" alt="">
+                        </div>
+                        <input class="w-full text-sm font-medium leading-5 text-[#888B97] outline-none" type="text" placeholder="Search for the location you want!">
+                        <button class="bg-light-green flex items-center justify-self-end text-white px-4 py-3 rounded-[32px] gap-x-3">Search <img class="" src="/img/hero/Vector.png" alt=""></button>
+                    </div>
+                    <div class="partnership">
+                        <p class="text-[#888B97] text-base font-normal leading-8">Our Partnership</p>
+                        <div class="img flex gap-x-8">
+                            <div>
+                                <img src="/img/hero/traveloka_logo 2.png" alt="">
+                            </div>
+                            <div>
+                                <img src="/img/hero/traveloka_logo 5.png" alt="">
+                            </div>
+                            <div>
+                                <img src="/img/hero/traveloka_logo 3.png" alt="">
+                            </div>
+                            <div>
+                                <img src="/img/hero/traveloka_logo 4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative w-full lg:w-1/2">
+                    <div class="">
+                        <img class="absolute top-36 mb-8 left-10 xl:left-20 h-auto hidden lg:block" src="/img/New folder (2)/Group 9.png" alt="">
+                        <div class="swiper w-full lg:w-[106%] mySwiper slider1 relative lg:absolute h-auto bottom-0 ml-0  lg:ml-12 pr-12 pb-8">
+                            <div class="hero-review swiper-wrapper flex gap-x-4 ">
+                                <div class="item swiper-slide bg-light-gray lg:bg-white p-3 rounded-[32px] inline-block">
+                                    <div class="   justify-start gap-x-3 lg:gap-x-6 flex items-center">
+                                        <div class="w-[32%] lg:w-auto">
+                                            <img src="/img/hero/Ellipse 4.png" alt="">
+                                        </div>
+                                        <div class="desc w-44 lg:w-[216px]">
+                                            <h1 class="font-medium text-lg leading-6 ">Manhattan Style</h1>
+                                            <p class="font-normal text-xs leading-5 text-deep-gray ">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                            <p class="font-medium text-xs leading-5 text-deep-blue inline-flex items-center gap-x-2"><img class="" src="/img/hero/stra.png" alt=""> 4.8 (400+ Review)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item swiper-slide bg-light-gray lg:bg-white p-3 rounded-[32px] inline-block">
+                                <div class="flex justify-start gap-x-3 lg:gap-x-6">
+                                        <div class="w-[32%] lg:w-auto">
+                                            <img src="img/hero/Ellipse 5.png" alt="">
+                                        </div>
+                                        <div class="desc w-44 lg:w-[216px]" >
+                                            <h1 class="font-medium text-lg leading-6">New House For </h1>
+                                            <p class="font-normal text-xs leading-5 text-deep-gray">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                            <p class="font-medium text-xs leading-5 text-deep-blue inline-flex items-center gap-x-2"><img class="" src="/img/hero/stra.png" alt=""> 4.8 (400+ Review)</p>
+                                        </div>
+                                </div>
+                                </div>
+                                <div class="item swiper-slide bg-light-gray lg:bg-white p-3 rounded-[32px] inline-block">
+                                    <div class="flex justify-start gap-x-3 lg:gap-x-6">
+                                        <div class="w-[32%] lg:w-auto">
+                                            <img src="img/hero/Ellipse 5.png" alt="">
+                                        </div>
+                                        <div class="desc w-44 lg:w-[216px]" >
+                                            <h1 class="font-medium text-lg leading-6">New House Your</h1>
+                                            <p class="font-normal text-xs leading-5 text-deep-gray">Lorem ipsum dolor sit amet, conser adipiscing elit</p>
+                                            <p class="font-medium text-xs leading-5 text-deep-blue inline-flex items-center gap-x-2"><img class="" src="/img/hero/stra.png" alt=""> 4.8 (400+ Review)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-4 lg:mt-0">
+                                <div class="swiper-pagination ml-20 text-center lg:text-left absolute  bottom-0 lg:bottom-3   "></div>
+                            </div>
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Feature House -->
+    <section> 
+        <div class="container">
+            <div class="flex flex-col md:flex-row items-start md:items-center gap-x-4 xl:gap-x-0 gap-y-4 md:gap-y-0 justify-start xl:justify-between  relative mt-8 lg:mt-14">
+                <div class="title flex flex-col gap-y-0 lg:gap-y-3">
+                    <p class="text-[#F59E0B] capitalize font-medium text-sm leading-4 items-center gap-x-2 inline-flex"><img src="/img/New folder/Rectangle 14.png" alt="">Our Recommendation</p>
+                    <h1 class="text-2xl lg:text-[32px] font-semibold leading-10 text-deep-blue pl-4 lg:pl-10">Featured House</h1>
+                </div>
+                <ul class=" flex gap-x-3  lg:gap-x-8 items-center ">
+                    <li class="p-0 m-0">
+                        <a class="hover:bg-olive group inline-block border border-[#E0E3EB] rounded-[32px] py-3 px-4 lg:px-6 font-semibold active transition-all duration-500 ease-out"
+                           data-select="one" id="one">
+                           <img id="show-img" class="group-hover:hidden" src="/img/New folder/house.png" alt="">
+                           <img id="let-show" class="hidden group-hover:flex" src="/img/New folder/ph_house-fill.png" alt="">
+                        </a>
+                    </li>
+                    <li class="p-0 text-gray">
+                        <a class=" hover:bg-olive hover:text-[#10B981] group border border-[#E0E3EB] rounded-[32px] py-3 px-4 lg:px-6   font-semibold inline-flex items-center gap-x-2 transition-all duration-500 ease-out"
+                           data-select="two" id="two" >
+                           <img id="show-img" class="group-hover:hidden" src="/img/New folder/ic_round-villa.png" alt="">
+                           <img id="let-show" class="hidden group-hover:flex" src="/img/New folder/villa.png" alt="">
+                           Villa</a>
+                    </li>
+                    <li class="p-0 text-gray">
+                        <a class=" hover:bg-olive hover:text-[#10B981] group border border-[#E0E3EB] rounded-[32px] py-3 px-4 lg:px-6 font-semibold inline-flex items-center gap-x-2 transition-all duration-500 ease-out"
+                           data-select="three" id="three">
+                           <img id="show-img" class="group-hover:hidden" src="/img/New folder/ic_round-apartment.png" alt="">
+                           <img id="let-show" class="hidden group-hover:flex" src="/img/New folder/apartment.png" alt="">
+                           Apartment</a>
+                    </li>
+                    
+                </ul>
+                <div class="arrow flex items-center">
+                    <div class="absolute top-32 sm:top-[73px] md:top-auto right-0  md:right-10 flex items-center gap-x-4">
+                        <div class="left group ">
+                            <a href="#" class="prev swiper-button bg-light-gray hover:bg-light-green  rounded-[32px] px-4 p-3 inline-block transition-all duration-200 ease-in ">
+                                <img class="dark-btn group-hover:hidden transition-all duration-200 ease-in" src="/img/New folder/left arrow.png" alt="">
+                                <img class="light-btn hidden group-hover:block " src="/img/New folder/left1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="right group">
+                            <a href="#" class="next swiper-button bg-light-gray hover:bg-light-green  rounded-[32px] px-4 p-3 inline-block transition-all duration-200 ease-in active2">
+                                <img class="dark-btn group-hover:hidden transition-all duration-200 ease-in" src="/img/New folder/right arrow.png" alt="">
+                                <img class="light-btn hidden group-hover:block" src="/img/New folder/right1.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="content pt-10">
+                <div id="tabs1" class="swiper w-[106%] h-auto mySwiper2 slider2 pr-10">
+                    <div  class="swiper-wrapper pl-0 lg:pl-10 flex">
+                        <div class="item swiper-slide bg-transparent">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative ">
+                                    <img src="/img/New folder/Rectangle 15.png" alt="">
+                                    <div class="bg-[#FEE2E2] px-4 py-2 rounded-[32px] absolute left-4 bottom-4">
+                                        <img class="" src="img/New folder/New folder/ant-design_fire-filled.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide bg-transparent">
+                            <div class=" flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-1.png" alt="">
+                                    <div class="bg-[#DBEAFE] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1 ">
+                                        <img class="" src="img/New folder/New folder/ph_house-fill.png" alt="">
+                                        <p class="text-[#1D4ED8] capitalize font-medium text-sm leading-4">New House</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6-1.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide bg-transparent">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-2.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide bg-transparent">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-3.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tabs2" class="hidden swiper w-[106%] h-auto mySwiper2 slider2 pr-10">
+                    <div  class="swiper-wrapper pl-0 lg:pl-10 flex">
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-3.png" alt="">
+                                    <div class="bg-[#FEE2E2] px-4 py-2 rounded-[32px] absolute left-4 bottom-4">
+                                        <img class="" src="img/New folder/New folder/ant-design_fire-filled.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class=" flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-2.png" alt="">
+                                    <div class="bg-[#DBEAFE] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1 ">
+                                        <img class="" src="img/New folder/New folder/ph_house-fill.png" alt="">
+                                        <p class="text-[#1D4ED8] capitalize font-medium text-sm leading-4">New House</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6-1.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-1.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tabs3" class="hidden swiper w-[106%] h-auto mySwiper2 slider2 pr-10">
+                    <div  class="swiper-wrapper pl-0 lg:pl-10 flex">
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-1.png" alt="">
+                                    <div class="bg-[#FEE2E2] px-4 py-2 rounded-[32px] absolute left-4 bottom-4">
+                                        <img class="" src="img/New folder/New folder/ant-design_fire-filled.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class=" flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15.png" alt="">
+                                    <div class="bg-[#DBEAFE] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1 ">
+                                        <img class="" src="img/New folder/New folder/ph_house-fill.png" alt="">
+                                        <p class="text-[#1D4ED8] capitalize font-medium text-sm leading-4">New House</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6-1.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-3.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item swiper-slide">
+                            <div class="flex gap-y-4 flex-col">
+                                <div class="img relative">
+                                    <img src="/img/New folder/Rectangle 15-2.png" alt="">
+                                    <div class="bg-[#D1FAE5] px-4 py-2 rounded-[32px] absolute left-4 bottom-4 flex gap-x-1">
+                                        <img class="" src="img/New folder/New folder/entypo_wallet.png" alt="">
+                                        <p class="text-green capitalize font-medium text-sm leading-4">Best Deals</p>
+                                    </div>
+                                </div>
+                                <div class="desc flex flex-col gap-y-1">
+                                    <h1 class="text-dark-blue text-2xl font-medium leading-8">Roselands House</h1>
+                                    <p class="text-gray-500 text-xl font-medium leading-8">$35.000.000</p>
+                                </div>
+                                <div class="user flex items-center gap-x-4">
+                                    <img src="img/New folder/Ellipse 6.png" alt="">
+                                    <div class="flex flex-col gap-y-0">
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-sm text-gray-300 font-medium leading-[22px]">Manchester, Kentucky</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature House End -->
+    <!-- Tour -->
+    <section class="tour my-24">
+        <div class="container">
+            <p class="text-[#F59E0B] capitalize font-medium text-sm leading-4 items-center gap-x-2 inline-flex"><img src="/img/New folder/Rectangle 14.png" alt="">Ready to Sell!</p>
+            <div class="flex justify-between gap-y-10 gap-x-4 flex-col lg:flex-row">
+                <div class="desc pl0 sm:pl-10">
+                    <div class="title mt-7 ">
+                        <h1 class="text-[32px] font-semibold leading-10 text-deep-blue ">Let’s tour and see our house!</h1>
+                        <p class="text-[#626687] font-normal text-base leading-7 w-[400px] my-4 ">Houses recommended by our partners that have been curated to become the home of your dreams!</p>
+                        <div class="house-details">
+                            <div class="title mb-8">
+                                <h1 class="mb-4 text-deep-blue font-semibold text-base leading-7">House Details</h1>
+                                
+                                <div class="flex gap-x-14 mb-4">
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="img/house/Shape.png" alt="">
+                                        <h1 class="text-[#3C4563] text-base font-medium leading-5">4 Bedrooms</h1>
+                                    </div>
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="img/house/Group 12.png" alt="">
+                                        <h1 class="text-[#3C4563] text-base font-medium leading-5">4 Bedrooms</h1>
+                                    </div>
+                                </div>
+                                <div class="flex gap-x-14">
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="img/house/Group-1.png" alt="">
+                                        <h1 class="text-[#3C4563] text-base font-medium leading-5">4 Bedrooms</h1>
+                                    </div>
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="img/house/Group.png" alt="">
+                                        <h1 class="text-[#3C4563] text-base font-medium leading-5">4 Bedrooms</h1>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pt-8 border-t border-[#F0F3FD] flex justify-between">
+                                <div class="flex items-center gap-x-2 sm:gap-x-6">
+                                    <div class="img">
+                                        <img src="img/house/Ellipse 6.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h1 class="text-dark-blue font-medium text-lg leading-6">Dianne Russell</h1>
+                                        <p class="text-gray-300 font-medium text-base leading-6">Manager Director</p>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <a href="#" class="py-3 px-2 sm:px-4 text-xs sm:text-base bg-green text-white inline-flex items-center gap-x-2 rounded-xl sm:rounded-[32px]"><img src="/img/house/Vector.png" alt=""> Contact Now</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-[47%] h-full relative"  >
+                    <div id="mySwiper4" class="swiper mySwiper4  pr-0">
+                        <div class="swiper-wrapper flex">
+                            <div onclick="myFunction();" class="swiper-slide  w-full h-full place-self-end">
+                                <video class="w-full"  id="videoPlayer1" controls >
+                                    <source src="/video/Ishq.mp4" type="video/mp4">
+                                    <source src="/video/Ishq.ogg" type="video/ogg">
+                                </video>
+                              </div>
+                              <div onclick="myFunction();" class="swiper-slide">
+                                <video class="w-full" id="videoPlayer2" controls >
+                                    <source src="/video/Ishq.mp4" type="video/mp4">
+                                    <source src="/video/Ishq.ogg" type="video/ogg">
+                                </video>
+                              </div>
+                              <div onclick="myFunction();" class="swiper-slide">
+                                <video class="w-full" id="videoPlayer3" controls >
+                                    <source src="/video/Ishq.mp4" type="video/mp4">
+                                    <source src="/video/Ishq.ogg" type="video/ogg">
+                                </video>
+                              </div>
+                        </div>
+                    </div>
+                    <div  thumbsSlider="" onclick="" id="mySwiper3" class="swiper mySwiper3  w-[106%] h-auto absolute -bottom-14 left-0 md:-left-10 flex  justify-between">
+                        <div class="swiper-wrapper flex items-end  w-auto">
+                            <div onclick="myFunction2();pause()" class="swiper-slide  video-thumbs video-active">
+                                <img class=" " src="img/video/Rectangle 18.png" />
+                              </div>
+                              <div onclick="myFunction2();pause()" class="swiper-slide  video-thumbs ">
+                                    <img class="" src="img/video/Rectangle 18.png" />
+                              </div>
+                              <div onclick="myFunction2();pause()" class="swiper-slide video-thumbs">
+                                    <img class=" " src="img/video/Rectangle 18.png" />
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tour End -->
+    <!-- Review -->
+    <section class="pb-10 lg:pb-28">
+        <div class="container">
+            <div class="title mt-3 mb-10 text-center">
+                <p class="inline-flex flex-col gap-y-2 text-[#F59E0B] capitalize font-medium text-sm leading-4"><img src="/img/review/Rectangle 14.png" alt=""> See Our Review</p>
+                <h1 class="text-[32px] font-semibold leading-10 text-deep-blue">What Our User Say About Us</h1>
+            </div>
+            <div class="swiper mySwiper5 ">
+                <div class=" swiper-wrapper pb-8">
+                    <div class="swiper-slide flex justify-center w-[70%] lg:w-auto">
+                        <div class="relative">
+                            <img class="hidden sm:block" src="/img/review/Rectangle 21.png" alt="">
+                            <div class="relative sm:absolute bottom-0 sm:bottom-[-100px] mx-0 sm:mx-9 lg:mx-16 bg-light-blue sm:bg-white rounded-2xl p-5 md:p-8">
+                                <h1 class="text-base md:text-xl font-semibold leading-5 md:leading-6 text-deep-blue mb-4">Best! I got the house I wanted through Hounter</h1>
+                                <p class="text-[#626687] text-xs md:text-sm font-normal leading-4 md:leading-6 text-ellipsis  overflow-hidden md:overflow-visible whitespace-nowrap md:whitespace-normal w-52 md:w-full">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+                                <div class="user flex items-center justify-between mt-6">
+                                    <div class="flex items-center gap-x-6">
+                                        <img src="img/review/user.png" alt="">
+                                        <div>
+                                            <p class="text-dark-blue text-sm leadiing-[22px] font-medium">Dianne Russell</p>
+                                            <p class="text-gray text-sm font-medium leading-[22px]">Manager Director</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="/img/review/star.png" alt="">
+                                        <p class="text-gray-500 text-xl font-semibold">4.6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex justify-center w-[70%] lg:w-auto">
+                        <div class="relative">
+                            <img class="hidden sm:block" src="/img/review/Rectangle 21.png" alt="">
+                            <div class="relative sm:absolute bottom-0 sm:bottom-[-100px] mx-0 sm:mx-9 lg:mx-16 bg-light-blue sm:bg-white rounded-2xl p-5 md:p-8">
+                                <h1 class="text-base md:text-xl font-semibold leading-5 md:leading-6 text-deep-blue mb-4">Best! I got the house I wanted through Hounter</h1>
+                                <p class="text-[#626687] text-xs md:text-sm font-normal leading-4 md:leading-6 text-ellipsis  overflow-hidden md:overflow-visible whitespace-nowrap md:whitespace-normal w-52 md:w-full">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+                                <div class="user flex items-center justify-between mt-6">
+                                    <div class="flex items-center gap-x-6">
+                                        <img src="img/review/user.png" alt="">
+                                        <div>
+                                            <p class="text-dark-blue text-sm leadiing-[22px] font-medium">Dianne Russell</p>
+                                            <p class="text-gray text-sm font-medium leading-[22px]">Manager Director</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="/img/review/star.png" alt="">
+                                        <p class="text-gray-500 text-xl font-semibold">4.6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex justify-center w-[70%] lg:w-auto">
+                        <div class="relative">
+                            <img class="hidden sm:block" src="/img/review/Rectangle 21.png" alt="">
+                            <div class="relative sm:absolute bottom-0 sm:bottom-[-100px] mx-0 sm:mx-9 lg:mx-16 bg-light-blue sm:bg-white rounded-2xl p-5 md:p-8">
+                                <h1 class="text-base md:text-xl font-semibold leading-5 md:leading-6 text-deep-blue mb-4">Best! I got the house I wanted through Hounter</h1>
+                                <p class="text-[#626687] text-xs md:text-sm font-normal leading-4 md:leading-6 text-ellipsis  overflow-hidden md:overflow-visible whitespace-nowrap md:whitespace-normal w-52 md:w-full">Through this website I can get a house with the type and specifications I want very easily, without a complicated process to be able to find information on the house we want.</p>
+                                <div class="user flex items-center justify-between mt-6">
+                                    <div class="flex items-center gap-x-6">
+                                        <img src="img/review/user.png" alt="">
+                                        <div>
+                                            <p class="text-dark-blue text-sm leadiing-[22px] font-medium">Dianne Russell</p>
+                                            <p class="text-gray text-sm font-medium leading-[22px]">Manager Director</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center gap-x-4">
+                                        <img src="/img/review/star.png" alt="">
+                                        <p class="text-gray-500 text-xl font-semibold">4.6</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination2 mt-10 sm:mt-32 text-center"></div>
+            </div>
+        </div>
+    </section>
+    <!-- Review End -->
+    <!-- Buying -->
+    <section>
+        <div class="container">
+            <div class="title text-center">
+                <img class="inline-flex justify-center" src="/img/review/Rectangle 14.png" alt="">
+                <p class="text-[#F59E0B] capitalize font-medium text-sm leading-4 mt-2 mb-3">See tips and trick from our partnership</p>
+                <h1 class="text-[32px] font-semibold leading-10 text-deep-blue">Find out more about selling and buying homes</h1>
+                <div class="my-10">
+                    <a href="#" class="py-3 px-4  bg-light-green rounded-[32px] text-white font-semibold text-sm leading-[22px]">More Artikel</a>
+
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row  justify-between gap-y-8 gap-x-9 lg:gap-x-[68px]">
+                <div class="buying-left flex flex-col gap-y-10">
+                    <div class="item flex flex-col xm:flex-row justify-between gap-y-2 gap-x-4 md:gap-x-8" >
+                        <img src="/img/Buy/Rectangle 22.png" alt="">
+                        <div class="desc flex flex-col gap-y-2 lg:gap-y-4">
+                            <p class="text-sm font-normal text-deep-blue inline-flex items-center  gap-x-4"><img src="/img/Buy/Ellipse 6.png " alt="">Dianne Russell</p>
+                            <h1 class="text-lg font-medium leading-5 md:leading-8 text-dark-blue">The things we need to check when we want to buy a house</h1>
+                            <p class="text-gray-300 text-sm font-normal leading-6 inline-flex items-center gap-x-3"><img src="/img/Buy/clock.png" alt="">4 min read | 25 Apr 2021</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-col xm:flex-row justify-between gap-y-2 gap-x-4 md:gap-x-8" >
+                        <img src="/img/Buy/Rectangle 22-1.png" alt="">
+                        <div class="desc flex flex-col gap-y-2 lg:gap-y-4">
+                            <p class="text-sm font-normal text-deep-blue inline-flex items-center  gap-x-4"><img src="/img/Buy/7.png" alt="">Dianne Russell</p>
+                            <h1 class="text-lg font-medium leading-5 md:leading-8 text-dark-blue">The things we need to check when we want to buy a house</h1>
+                            <p class="text-gray-300 text-sm font-normal leading-6 inline-flex items-center gap-x-3"><img src="/img/Buy/clock.png" alt="">4 min read | 25 Apr 2021</p>
+                        </div>
+                    </div>
+                    <div class="item flex flex-col xm:flex-row justify-between gap-y-2 gap-x-4 md:gap-x-8" >
+                        <img src="/img/Buy/Rectangle 22-2.png" alt="">
+                        <div class="desc flex flex-col gap-y-2 lg:gap-y-4">
+                            <p class="text-sm font-normal text-deep-blue inline-flex items-center gap-x-4"><img src="/img/Buy/8.png" alt="">Dianne Russell</p>
+                            <h1 class="text-lg font-medium leading-5 md:leading-8 text-dark-blue">The things we need to check when we want to buy a house</h1>
+                            <p class="text-gray-300 text-sm font-normal leading-6 inline-flex items-center gap-x-3"><img src="/img/Buy/clock.png" alt="">4 min read | 25 Apr 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="buying-right  md:w-[560px]   ">
+                    <div class="flex flex-col gap-y-6">
+                        <img src="/img/Buy/right.png" alt="">
+                        <div class=" desc flex flex-col gap-y-3">
+                            <p class="text-gray-500 text-sm font-normal inline-flex items-center gap-x-4"><img src="/img/Buy/Ellipse 6.png" alt="">Cameron Williamson</p>
+                            <h1 class="text-2xl text-deep-blue font-medium leading-8">12 Things to know before buying a house</h1>
+                            <p class="text-sm text-[#626687] font-normal leading-6">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
+                            <p class="text-gray-300 text-sm font-normal leading-6 inline-flex items-center gap-x-3"><img src="/img/Buy/clock.png" alt="">8 min read | 25 Apr 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Buying ENd -->
+<!-- Subscribe -->
+    <section class="my-24">
+        <div class="container">
+            <div class="bg-[url('/img/subscribe/Rectangle24.png')] bg-no-repeat bg-cover text-center p-6 rounded-[32px] relative">
+                <div class="my-4 sm:my-8">
+                    <h1 class="text-2xl xm:text-[32px] font-semibold leading-10 text-deep-blue capitalize">Subscribe For More Info </h1>
+                    <h1 class="text-2xl lg:text-[32px] font-semibold leading-10 text-deep-blue capitalize">and update from Hounter</h1>
+                </div>
+                <div class="sub-btn rounded-[32px] inline-block pl-6 py-1 pr-1 mb-0 sm:mb-8 justify-between bg-white">
+                    <div class="flex items-center gap-x-2 xm:gap-x-3">
+                        <img src="/img/subscribe/message.png" alt="">
+                        <input class="outline-none w-36 xm:w-full" type="text" placeholder="Your email here">
+                        <a href="#" class="py-3 px-3 sm:px-4 bg-light-green text-xs xm:text-base text-white rounded-2xl xm:rounded-[32px] ">Subsribe <span class="hidden xm:block">Now</span> </a>
+                    </div>
+                    
+                </div>
+                <div class="hidden md:block">
+                    <img src="/img/subscribe/left-top.png" alt="" class="border border-white rounded-3xl absolute top-8 left-11">
+                    <img src="/img/subscribe/left-b.png" alt="" class="border border-white rounded-full absolute bottom-20 left-16">
+                    <img src="/img/subscribe/left.png" alt="" class="border border-white rounded-full absolute top-4 lg:top-16 left-48 ">
+                    <img src="/img/subscribe/left1.png" alt="" class="border border-white rounded-3xl absolute bottom-3 lg:bottom-20 left-24 lg:left-48 ">
+                    <img src="/img/subscribe/Rectangle 26.png" alt="" class="border border-white rounded-3xl absolute top-3 lg:top-11 right-20 lg:right-40 xl:right-52 ">
+                    <img src="/img/subscribe/Ellipse 8.png" alt="" class="border border-white rounded-full absolute top-56 lg:top-36 right-28 lg:right-40 xl:right-52 ">
+                    <img src="/img/subscribe/New folder/Ellipse 9.png" alt="" class="border border-white rounded-full absolute top-16 xl:top-24 right-8 lg:right-16 xl:right-20 ">
+                    <img src="/img/subscribe/New folder/Rectangle 27.png" alt="" class="border border-white rounded-3xl absolute bottom-20 xl:bottom-14 right-12 xl:right-16 ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Subscribe End -->
+    <!--Footer  -->
+    <section class="pb-24">
+        <div class="container">
+            <div class="grid grid-cols-3 md:grid-cols-5 gap-x-3 lg:gap-x-4 gap-y-6">
+                <div class="hunter col-span-2 flex flex-col gap-y-3 md:gap-y-6">
+                    <div class="title flex gap-x-3">
+                        <img src="/img/footer/logo.png" alt="">
+                        <h1 class="text-base leading-5 font-bold capitalize text-deep-blue">Hunter </h1>
+                    </div>
+                    <p class=" text-sm text-[#626687] font-normal leading-6">We provide information about properties such as houses, villas and apartments to help people find their dream home</p>
+                    <div class="social flex gap-x-6">
+                        <a href="#"><img src="/img/footer/Vector.png" alt=""></a>
+                        <a href="#"><img src="/img/footer/Vector-1.png" alt=""></a>
+                        <a href="#"><img src="/img/footer/Vector-1.png" alt=""></a>
+                    </div>
+                </div>
+                 <div class="property ">
+                    <h1 class="text-dark-blue text-lg font-semibold leading-6 capitalize mb-6">property</h1>
+                    <ul class="text-gray-300 font-normal text-sm leading-5 flex flex-col gap-y-1  md:gap-y-2 lg:gap-y-4">
+                        <li><a href="#">House</a></li>
+                        <li><a href="#">Apartment</a></li>
+                        <li><a href="#">Villa</a></li>
+                    </ul>
+                 </div>
+                 <div class="article">
+                    <h1 class="text-dark-blue text-lg font-semibold leading-6 capitalize mb-6">Article</h1>
+                    <ul class="text-gray-300 font-normal text-sm leading-5 flex flex-col gap-y-1  md:gap-y-2 lg:gap-y-4">
+                        <li><a href="#">New Article</a></li>
+                        <li><a href="#">Popular Article</a></li>
+                        <li><a href="#">Most Read</a></li>
+                        <li><a href="#">Tips & Tricks</a></li>
+                    </ul>
+                 </div>
+                 <div class="contact col-span-2 md:col-span-1">
+                    <h1 class="text-dark-blue text-lg font-semibold leading-6 capitalize mb-6">Article</h1>
+                    <ul class="text-gray-300 font-normal text-sm leading-5 flex flex-col gap-y-1  md:gap-y-2 lg:gap-y-4">
+                        <li><a href="#">2464 Royal Ln. Mesa, New Jersey 45463</a></li>
+                        <li><a href="#">(671) 555-0110</a></li>
+                        <li><a href="#">info@hounter.com</a></li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

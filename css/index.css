@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      font-family: lexend, system-ui, sans-serif;
+      overflow-x: hidden;
+    },
+    body{
+    overflow: hidden;
+    //background-image: url('img/slice.png');
+    }
+    .hero-img{
+      
+    }
+    .text-outline{
+      color: black;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1B1C57;
+    }
+    .title-head{
+      -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #1B1C57;
+    }
+
+    .swiper-slide {
+      width:auto;
+      /* Center slide text vertically */
+      /* display: flex; */
+
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: end;
+    }
+    .active{
+      background: #D1FAE5;
+      border: none;
+      color: #10B981;
+    }
+    .active #show-img{
+    display:none;
+    }
+    .active #let-show{
+    display:block;
+    }
+    .active2{
+      background: #10B981!important;
+    }
+    .active2 .dark-btn{
+      display: none;
+    }
+    .active2 .light-btn{
+      display: block;
+    }
+
+    /* video slider */
+    .video-active{
+    border-radius: 5px;
+    width:39%!important;
+    overflow:visible;
+    }
+  } 

@@ -43,6 +43,7 @@
       background: #D1FAE5;
       border: none;
       color: #10B981;
+      transition: all 5s ease-out;
     }
     .active #show-img{
     display:none;

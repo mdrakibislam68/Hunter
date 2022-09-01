@@ -446,6 +446,7 @@ html {
   background: #D1FAE5;
   border: none;
   color: #10B981;
+  transition: all 5s ease-out;
 }
 
 .active #show-img{
@@ -1532,6 +1533,10 @@ html {
   transition-duration: 150ms;
 }
 
+.delay-700 {
+  transition-delay: 700ms;
+}
+
 .duration-150 {
   transition-duration: 150ms;
 }
@@ -1544,8 +1549,16 @@ html {
   transition-duration: 200ms;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.ease-in-out {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .ease-in {
@@ -1599,12 +1612,8 @@ html {
 }
 
 @media (min-width: 480px) {
-  .xm\:block {
-    display: block;
-  }
-
-  .xm\:w-full {
-    width: 100%;
+  .xm\:inline-flex {
+    display: inline-flex;
   }
 
   .xm\:flex-row {
@@ -1624,9 +1633,9 @@ html {
     font-size: 32px;
   }
 
-  .xm\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
+  .xm\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
